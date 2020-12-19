@@ -1,0 +1,58 @@
+# Fairness
+
+## Week 1 {-#w1}
+
+**Lecture:** Introduction and background; Algorithmic fairness I
+
+**Topics:** Course outline, aspects of responsibility in data science through recent examples. Fairness in classification. The importance of a socio-technical perspective: stakeholders and trade-offs.
+
+**Reading:**
+
+*   "Bias in Computer Systems", Friedman and Nissenbaum (1996) [[ACM DL](https://dl.acm.org/citation.cfm?id=230561)]
+*   "Machine Bias", Angwin, Larson, Mattu, Kirchner (2016) [[ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)]
+*   "Mirror, Mirror", Arif Khan and Stoyanovich (2020) [[Vol 1](https://dataresponsibly.github.io/comics/)]
+*   “Fairness through awareness”, Dwork, Hardt, Pitassi, Reingold, Zemel (2012) [[ACM DL](https://dl.acm.org/citation.cfm?doid=2090236.2090255)]  
+*   "On the (im)possibility of fairness", Friedler, Scheidegger, Venkatasubramanian (2016) [[arXiv](https://arxiv.org/abs/1609.07236)]  
+
+**Lab:** Intro to Jupyter Hub; ProPublica's Machine Bias
+
+## Week 2 {-#w2}
+
+**Lecture:** Algorithmic fairness II
+
+**Topics:** Fairness in risk assessment. Fairness in ranking.
+
+**Reading:**
+
+*   "Fair prediction with disparate impact: A study of bias in recidivism prediction instruments", Chouldechova (2017) [[arXiv](https://arxiv.org/abs/1703.00056)]     
+*   "Inherent Trade-Offs in the Fair Determination of Risk Scores", J. Kleinberg, S. Mullainathan, M. Raghavan (2017) [[pdf](http://drops.dagstuhl.de/opus/volltexte/2017/8156/pdf/LIPIcs-ITCS-2017-43.pdf)]  
+*   "Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions", Mitchell, Porash, Barocas (2018) [[arXiv](https://arxiv.org/abs/1811.07867)]  
+*   "Dissecting racial bias in an algorithm used to manage the health of populations", Obermeyer, Powers, Vogel, Mullainathan (2019) [[Science](https://science.sciencemag.org/content/366/6464/447)]
+
+**Lab:** IBM's AI Fairness 360 toolkit
+
+## Week 3 {-#w3}
+
+**Lecture:** Data cleaning
+
+**Topics:** Overview of data cleaning
+
+**Reading:**
+
+*   "Profiling relational data: a survey", Abedjan, Golab, Naumann (2015) [[pdf](https://dataresponsibly.github.io/courses/documents/Abedjan_2015.pdf)]  
+*   "Quantitative data cleaning for large databases", Hellerstein (2008) [[pdf](https://dataresponsibly.github.io/courses/documents/Hellerstein_2008.pdf)]    
+
+**Lab:** IBM's AI Fairness 360 toolkit
+
+## Week 4 {-#w4}
+
+**Lecture:** Part 1: Fairness and causality; Part 2: Data profiling I
+
+**Topics:** Counterfactual fairness, types of data profiling tasks, overview of the relational model
+
+**Reading:**
+
+*   "The long road to fairer algorithms", M. Kushner, J. Loftus (2020) [[Nature](https://www.nature.com/articles/d41586-020-00274-3)]  
+*   "Counterfactual fairness", M. Kusner, J. Loftus, C. Russell, R. Silva (2017) [[pdf](https://papers.nips.cc/paper/6995-counterfactual-fairness.pdf)]
+
+**Lab:** Data profiling and data cleaning; course project discussion

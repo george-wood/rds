@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i|Noto+Serif:400,500|Source+Code+Pro&display=swap');
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/*------------- Body and header text---------------- */
+
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.book.font-family-1 {
+  font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif', serif;
+  color: #345DA7;
+}
+
+.title {
+  font-family: 'Noto Serif', serif;
+  font-size: 3em !important;
+  color: #4B99DC;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.subtitle {
+  font-family: 'Noto Serif', serif;
+  color: #4B99DC !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.subtitle em {
+  font-style: normal !important;
+}
+
+.author {
+  color: #4BB4DE !important;
+}
+
+p.author em {
+  font-style: normal !important;
+}
+
+/* ------------------- headers ------------------ */
+.header-section-number {
+  padding-right: .2em;
+}
+.level1 .header-section-number {
+  display: inline-block;
+  font-weight: 500;
+}
+.level1 h1 {
+  border-bottom: 1px solid;
+  border-color: #3B8AC4;
+}
+
+/*--- LOGO ---*/
+    
+    .toc-logo {
+      width: 200px !important;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+    }
+    
+    .toc-logo img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .summary > li:first-child {
+      height: auto !important; 
+    }
