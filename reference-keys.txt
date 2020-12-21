@@ -1,4 +1,0 @@
-fairness-data-cleaning-and-data-profiling
-anonymity-privacy-and-ethical-frameworks
-transparency
-interpretability-legal-and-regulatory-frameworks
